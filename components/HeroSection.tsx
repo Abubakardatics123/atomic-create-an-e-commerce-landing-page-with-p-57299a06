@@ -29,7 +29,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link
                 href="#products"
-                className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-pink-600 hover:bg-pink-500 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-pink-600/30 hover:shadow-pink-500/40 hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-yellow-500 hover:bg-yellow-400 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-yellow-500/30 hover:shadow-yellow-400/40 hover:-translate-y-0.5"
               >
                 Shop Now
                 <ArrowRight size={18} />
