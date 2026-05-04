@@ -84,7 +84,7 @@ export default function Page() {
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-xl font-bold text-white mb-1">{deal.title}</h3>
                   <p className="text-slate-300 text-sm mb-4">{deal.subtitle}</p>
-                  <Link href="#products" className="inline-flex items-center gap-1.5 px-4 py-2 bg-white text-slate-900 text-sm font-semibold rounded-lg hover:bg-slate-100 transition-colors" style={index === 0 ? { backgroundColor: '#ef4444' } : undefined}>
+                  <Link href="#products" className="inline-flex items-center gap-1.5 px-4 py-2 bg-white text-slate-900 text-sm font-semibold rounded-lg hover:bg-slate-100 transition-colors" style={index === 1 ? { backgroundColor: '#f97316' } : undefined}>
                     {deal.cta} <ArrowRight size={14} />
                   </Link>
                 </div>

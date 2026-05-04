@@ -37,6 +37,7 @@ export default function HeroSection() {
               <Link
                 href="#products"
                 className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-xl transition-all duration-200 border border-white/20"
+                style={{ backgroundColor: '#f97316' }}
               >
                 View Collections
               </Link>
